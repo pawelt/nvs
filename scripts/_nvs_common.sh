@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export NVS_VER=1.0.0
+export NVS_VER=1.2.0
 
 export NVS_V_DIR=$NVS_DIR/v
 

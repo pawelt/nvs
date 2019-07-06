@@ -3,7 +3,7 @@
 source $NVS_DIR/scripts/_nvs_common.sh
 
 node_ver=$(node -v 2>/dev/null || echo '(no version found)')
-echo "Node Version Switcher v$NVS_VER  /  NodeJS $node_ver"
+echo "Node Version Switcher v$NVS_VER  /  Node active: $node_ver  /  Node default: v$(cat $NVS_DEFAULT_VER_CFG)"
 echo ""
 echo "Commands:"
 echo "  nvs-use [v]         activate the newest installed version matching the filter"
